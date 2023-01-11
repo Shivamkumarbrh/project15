@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Modal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+        <div class="menu">
+            <a href="#" onclick="document.getElementById('menu-container2').style.display='block' ">menu</a>
+            <div class="menu-container" id="menu-container2">
+                <a><h2>Starters</h2> <button onclick="document.getElementById('menu-container2').style.display='none' ">close</button></a>
+                <p>Tomato Soup $2.50</p>
+                <p>Chicken Salad $3.50</p>
+                <p>Bread and Butter $1.00</p>
+                <h2>Main Courses</h2>
+                <p>Grilled Fish and Potatoes $8.50</p>
+                <p>Italian Pizza $5.50</p>
+                <p>Veggie Pasta $4.00</p>
+                <p>Chicken and Potatoes $6.50</p>
+                <p>Deluxe Burger $5.00</p>
+                <h2>Desserts</h2>
+                <p>Fruit Salad $2.50</p>
+                <p>Ice cream $2.00</p>
+                <p>Chocolate Cake $4.00</p>
+                <p>Cheese $5.50</p>
+            </div>
+        </div>
+        <div class="contact">
+            <a href="#" onclick="document.getElementById('box2').style.display='block' ">Contact</a>
+            <div class="contact-container" id="box2">
+                <div class="div-box"><h2>Contact</h2><button onclick="document.getElementById('box2').style.display='none' ">close</button></div>
+                <p>Reserve a table, ask for today's special or just send us a message:</p>
+                <div class="contact-container2">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="How many people">
+                <input type="text" placeholder="16/11/2022 8:00pm" id="date">
+                <input type="text" placeholder="Message\Special requirements">
+                <button>Send Message</button>
+            </div>
+        </div>
+        </div>
+    </div>
+            <div class="center">
+                <h1>logo</h1>
+            </div>
+            <div class="bottom">
+                <p id="b-first">monday - friday 10-23 | saturday 14-02</p>
+                <p id="b-second">42 village St, New York</p>
+                <p id="b-third">poweredbyCodeBYKumar</p>
+            </div>
+        </div>
+</body>
+</html>

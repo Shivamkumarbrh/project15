@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url('../img/bg3.jpg');
+    filter: grayscale(100%);
+    background-size: cover;
+    
+}
+.top{
+    width: 100%;
+    box-sizing: border-box;
+    height: 25vh;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+.menu a{
+ display: inline-block;
+ padding: 12px 20px;
+ background-color: black;
+ color: white;
+ font-size: 1.5em;
+ text-decoration: none;
+ margin: 15px 0px 0px 15px;
+}
+.contact a{
+    display: inline-block;
+ padding: 12px 20px;
+ background-color: black;
+ color: white;
+ font-size: 1.5em;
+ text-decoration: none;
+ margin: 15px;
+}
+.menu-container{
+    display: none;
+    color: white;
+    position: absolute;
+    top: 10%;
+    width: 60%;
+    margin: 0px auto;
+    left: 20%;
+    right: 20%;
+}
+.menu-container a{
+    display: flex;
+    justify-content: space-between  ;
+    padding:0px 0px;
+    margin: 0px;
+    font-size: 1em;
+}
+.menu-container button,.div-box button{
+    padding: 10px 20px;
+    margin: 5px 15px;
+    border: none;
+    cursor: pointer;
+}
+.menu-container h2{
+    padding: 15px 15px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.menu-container p{
+    padding:10px 15px;
+    background-color: white;
+    color: black;
+}
+.center{
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    color:white;
+    /* height: calc(100vh - 500px); */
+}
+.bottom{
+    height: 25vh;
+    box-sizing: border-box;
+    color: white;
+    /* position: fixed; */
+    bottom: 0px;
+    padding: 0px 20px;
+    /* border: 5px solid green; */
+    box-sizing: border-box;
+}
+#b-first{
+    padding: 15px 0px;
+    font-size: 1.5em;
+}
+#b-second{
+    font-size: 1.2em;
+    padding: 15px 0px;
+}
+#b-third{
+    padding: 15px 0px;
+}
+.contact-container{
+    position: absolute;
+    top:25%;
+    width: 60%;
+    background-color: white;
+    color: black;
+    left: 20%;
+    /* padding: 0px 15px; */
+}
+.div-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+.contact-container input{
+    position: relative;
+    width: 96%;
+    padding: 12px 20px;
+    margin: 5px 2% 5px 2%;
+    box-sizing: border-box;
+}
+.contact-container input:focus{
+    outline: none;
+}
+.contact-container h2{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+}
+.contact-container p{
+    padding: 10px 20px;
+}
+.contact-container button{
+    padding: 12px 15px;
+    margin: 5px 2%;
+    border: none;
+background-color: white;
+color: black;
+}

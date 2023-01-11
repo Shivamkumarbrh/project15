@@ -1,0 +1,17 @@
+@media screen and (max-width:600px) {
+    #b-third{
+        padding: 0px 0px;
+    }
+    .menu-container{
+        /* display: sticky; */
+        top: 2.5%;
+        width: 95%;
+        left: 2.5%;
+        overflow: scroll;
+    }
+    .contact-container{
+        top: 25%;
+        width: 95%;
+        left: 2.5%;
+    }
+}
