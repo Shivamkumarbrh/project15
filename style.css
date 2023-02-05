@@ -3,35 +3,37 @@
     padding: 0;
 }
 .container{
-    background-image: url('../img/bg3.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2019/02/04/01/02/outdoor-3973790_960_720.jpg');
     filter: grayscale(100%);
     background-size: cover;
-    
+    box-sizing: border-box;
+    min-height: 100vh;
 }
 .top{
     width: 100%;
     box-sizing: border-box;
     height: 25vh;
-    /* border: 1px solid; */
-    box-sizing: border-box;
 }
+
 .menu a{
- display: inline-block;
- padding: 12px 20px;
- background-color: black;
- color: white;
- font-size: 1.5em;
- text-decoration: none;
- margin: 15px 0px 0px 15px;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 15px 0px 0px 15px;
 }
 .contact a{
     display: inline-block;
- padding: 12px 20px;
- background-color: black;
- color: white;
- font-size: 1.5em;
- text-decoration: none;
- margin: 15px;
+    padding: 12px 20px;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 15px;
 }
 .menu-container{
     display: none;
@@ -40,8 +42,18 @@
     top: 10%;
     width: 60%;
     margin: 0px auto;
+    overflow: auto;
+    height: 80vh;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
     left: 20%;
     right: 20%;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+}
+.menu-container::-webkit-scrollbar{
+    display: none;
+    box-sizing: border-box;
 }
 .menu-container a{
     display: flex;
@@ -135,6 +147,7 @@
 .contact-container button{
     padding: 12px 15px;
     margin: 5px 2%;
+    box-sizing: border-box;
     border: none;
 background-color: white;
 color: black;
